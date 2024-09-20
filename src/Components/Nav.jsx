@@ -17,7 +17,7 @@ const Nav = () => {
   const toggleMenu = () => setIsOpen((prevState) => !prevState);
   return (
     <>
-      <div className="flex items-center justify-between    p-2 lg:px-10 shadow-lg">
+      <div className="flex items-center justify-between  bg-[#f5fffa] p-2 lg:px-10 shadow-lg">
         <div>
           <img src={logo} alt="" />
         </div>

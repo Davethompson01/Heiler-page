@@ -5,6 +5,8 @@ import Happycustomers from "../Components/Home/Happycustomers";
 import Ourservices from "../Components/Home/Ourservices";
 import Bookappointment from "../Components/Home/Bookappointment";
 import Startconsultation from "../Components/Home/Startconsultation";
+import Ourdoctor from "../Components/Home/Ourdoctor";
+import Chooseus from "../Components/Home/Chooseus";
 
 const Home = () => {
   return (
@@ -16,6 +18,9 @@ const Home = () => {
         <Ourservices />
         <Bookappointment />
         <Startconsultation />
+        <Ourdoctor />
+        {/* <Chooseus /> */}
+        <Chooseus/>
       </div>
     </>
   );
