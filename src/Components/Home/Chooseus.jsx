@@ -9,9 +9,13 @@ const Chooseus = () => {
         <h1 className="text-[32px] font-[700]  text-[#00a651] mb-8">
           Why You Should Choose?{" "}
         </h1>
-        <div className="grid gap-4">
-          <div>
-            <img src={choose} alt="" />
+        <div className="grid gap-12 place-content-center sm:flex items-center justify-center lg:justify-center lg:gap-[10rem]">
+          <div className=" grid place-items-center">
+            <img
+              src={choose}
+              alt=""
+              className="sm:w-[310px] md:w-[400px]  lg:w-[500px]"
+            />
           </div>
           <div>
             <p className="text-[16px] font-bold flex items-center gap-3 ">
@@ -34,7 +38,7 @@ const Chooseus = () => {
               </svg>
               Safety is our first priority
             </p>
-            <p>
+            <p className="text-[16px] font-bold flex items-center gap-3 ">
               {" "}
               <svg
                 width="15"
@@ -54,7 +58,7 @@ const Chooseus = () => {
               </svg>
               Flexibility in treatment
             </p>
-            <p>
+            <p className="text-[16px] font-bold flex items-center  gap-3 ">
               {" "}
               <svg
                 width="15"
@@ -74,7 +78,7 @@ const Chooseus = () => {
               </svg>
               Diagnostic with technology{" "}
             </p>
-            <p>
+            <p className="text-[16px] font-bold flex items-center gap-3 ">
               {" "}
               <svg
                 width="15"
@@ -94,7 +98,7 @@ const Chooseus = () => {
               </svg>
               Reliable pricing
             </p>
-            <p>
+            <p className="text-[16px] font-bold flex items-center gap-3 ">
               {" "}
               <svg
                 width="15"
@@ -115,9 +119,11 @@ const Chooseus = () => {
               Professional staffs
             </p>
 
-            <button className="mt-8 border-[1px] border-[#00a651] font-bold px-8 py-2 bg-white text-[#00a651] rounded-xl">
-              Book Appointment
-            </button>
+            <div>
+              <button className="mt-8 border-[1px] border-[#00a651] font-bold px-8 py-2 bg-white text-[#00a651] rounded-xl">
+                Book Appointment
+              </button>
+            </div>
           </div>
         </div>
       </div>

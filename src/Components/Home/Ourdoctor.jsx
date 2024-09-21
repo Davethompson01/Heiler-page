@@ -66,7 +66,9 @@ const Ourdoctor = () => {
                 }}
               ></div>
               <h1 className="text-[24px] font-[700]">{element.h1}</h1>
-              <h1 className="text-[20px]  font-semibold">{element.h3}</h1>
+              <h1 className="text-[20px] text-[#003B1D] font-semibold">
+                {element.h3}
+              </h1>
               <p className="text-[15px]">{element.p}</p>
               <div>
                 <div className="flex justify-center">

@@ -45,7 +45,7 @@ const Startconsultation = () => {
               </svg>
               Served directly by experts
             </p>
-            <button className="mt-8 border-[1px] border-[#00a651] font-bold px-8 py-2 bg-white text-[#00a651] rounded-xl">
+            <button className="mt-8 border-[1px] c font-bold px-8 py-2 bg-white text-[#00a651] rounded-xl">
               Start Consultation
             </button>
           </div>
