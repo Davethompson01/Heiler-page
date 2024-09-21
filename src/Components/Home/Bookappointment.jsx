@@ -1,5 +1,6 @@
 import React from "react";
-import bookappointment from "../../assets/bookappointment.png";
+import bookappointment from "../../assets/bookAppointment.png";
+
 const Bookappointment = () => {
   return (
     <>
