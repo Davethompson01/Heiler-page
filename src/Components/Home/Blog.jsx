@@ -89,7 +89,7 @@ const Blog = () => {
               {maps.map((element, index) => (
                 <div
                   key={index}
-                  className=" bg-white rounded-xl md:flex border-[3px] border-[#00a651]"
+                  className=" bg-white rounded-xl md:flex border-[3px] shadow-2xl"
                 >
                   <div>
                     <img
