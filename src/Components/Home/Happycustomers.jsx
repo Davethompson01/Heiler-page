@@ -10,7 +10,7 @@ const Happycustomers = () => {
   return (
     <>
       <div className="bg-[#f5fffa] lg:px-10 py-10">
-        <div className="grid place-content-center  gap-8 sm:grid-cols-4">
+        <div className="grid grid-cols-2 place-content-center gap-4  sm:gap-8 sm:grid-cols-4">
           {maps.map((element, index) => (
             <div
               key={index}

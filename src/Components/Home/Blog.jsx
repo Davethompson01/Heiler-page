@@ -87,7 +87,10 @@ const Blog = () => {
           <div className=" basis-[55%]">
             <div className="grid place-content-center gap-7">
               {maps.map((element, index) => (
-                <div key={index} className=" bg-white rounded-xl md:flex">
+                <div
+                  key={index}
+                  className=" bg-white rounded-xl md:flex border-[3px] border-[#00a651]"
+                >
                   <div>
                     <img
                       src={element.img}

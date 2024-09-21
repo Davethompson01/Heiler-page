@@ -5,14 +5,14 @@ const Bookappointment = () => {
   return (
     <>
       <div className="sm:flex gap-[50px]  bg-[#f5fffa]  p-2 lg:px-10">
-        <div className="grid place-items-center ">
+        <div className="grid place-items-center  ">
           <img
             src={bookappointment}
             alt=""
             className="w-[80%] max-w-[350px]  sm:min-w-[280px]  "
           />
         </div>
-        <div className="text-[#00a651] sm:w-[500px] grid gap-4">
+        <div className="text-[#00a651] sm:w-[500px]  mt-6">
           <h1 className="font-semibold text-[18px]">Book Appointment</h1>
           <h1 className="text-[30px] font-semibold ">
             Make An Appointment With A Doctor Today.
