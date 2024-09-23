@@ -15,15 +15,16 @@ const Home = () => {
     <>
       <div>
         <Bestreliable />
-        <Allprofessional />
         <Happycustomers />
+        <Allprofessional />
         <Ourservices />
         <Bookappointment />
+        <Testimoials />
+        <Chooseus />
         <Startconsultation />
         <Ourdoctor />
-        <Chooseus />
+
         <Blog />
-        <Testimoials />
       </div>
     </>
   );

@@ -9,12 +9,12 @@ const Happycustomers = () => {
   ];
   return (
     <>
-      <div className="bg-[#f5fffa] lg:px-10 py-10">
+      <div className="bg-[#ffffff] shadow-xl lg:px-10 py-10">
         <div className="grid grid-cols-2 place-content-center gap-4  sm:gap-8 sm:grid-cols-4">
           {maps.map((element, index) => (
             <div
               key={index}
-              className="lg:text-justify text-center text-[#00a651] font-semibold"
+              className="lg:text-center text-center text-[#00a651] font-semibold"
             >
               <h1 className="text-[25px] font-semibold ">{element.h1}</h1>
               <p>{element.path}</p>

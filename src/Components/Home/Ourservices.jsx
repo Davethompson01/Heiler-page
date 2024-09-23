@@ -29,16 +29,16 @@ const Ourservices = () => {
   ];
   return (
     <>
-      <div className="text-center py-10  px-2 lg:px-10 bg-[#f5fffa]">
-        <h1 className="text-[20px] font-bold text-[#00a651] ">Our Services</h1>
-        <p className="text-[32px] text-[#00a651] font-semibold">
+      <div className="text-center py-20  px-2 lg:px-10 bg-[#ffffff]">
+        <h1 className="text-[30px] font-[700] text-[#00a651] ">Our Services</h1>
+        <p className="text-[20px] text-[#00a651] font-medium mb-7">
           We Provides the Best Services
         </p>
         <div className="grid gap-3 place-items-center  sm:grid-cols-2 lg:grid-cols-4">
           {maps.map((element, index) => (
             <div
               key={index}
-              className="shadow-lg  rounded-xl p-4 w-[90%] grid place-items-center "
+              className="shadow-lg sm:h-[200px] bg-[#00a651]  rounded-xl p-4 w-[90%] grid place-items-center "
             >
               <div
                 className=" h-[50px] w-[50px] bg-cover bg-no-repeat  bg-center"
@@ -46,10 +46,10 @@ const Ourservices = () => {
                   backgroundImage: `url(${element.svg})`,
                 }}
               ></div>
-              <h1 className="text-[25px] font-semibold text-[#00a651] text-center">
+              <h1 className="text-[25px] text-[#def3e8] font-semibold  text-center">
                 {element.h1}
               </h1>
-              <p className="font-medium text-[#00a651] text-center">
+              <p className="font-medium text-[#def3e8] text-center">
                 {element.p}
               </p>
             </div>

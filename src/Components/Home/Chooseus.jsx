@@ -5,8 +5,8 @@ const Chooseus = () => {
   return (
     <>
       <div className="bg-[#f5fffa]  py-10 px-4 lg:px-10 shadow-lg w-full text-center ">
-        <h1 className="text-[#00a651] text-[20px] font-[700]">Why Choose Us</h1>
-        <h1 className="text-[32px] font-[700]  text-[#00a651] mb-8">
+        <h1 className="text-[#fff] text-[20px] font-[700]">Why Choose Us</h1>
+        <h1 className="text-[32px] font-[700]  text-[#fff] mb-8">
           Why You Should Choose?{" "}
         </h1>
         <div className="grid gap-12 place-content-center sm:flex items-center justify-center lg:justify-center lg:gap-[10rem]">
