@@ -1,19 +1,20 @@
 import React from "react";
 import consultation from "../../assets/Consultation.png";
-import consult from "../../assets/consult1.png";
+import right from "../../assets/right.png";
 
 const Startconsultation = () => {
   return (
     <>
-      <div className=" grid gap-y-14  overflow-x-hidden sm:flex sm:gap-x-12   bg-[#f5fffa]  p-2 lg:px-10  py-20">
-        <div className="text-[#00a651] sm:w-[500px] ">
-          <h1 className="font-semibold text-[18px]">Start Consultation</h1>
-          <h1 className="text-[30px] font-semibold ">Consult with Doctors</h1>
-          <p className="font-bold">
+      <div className=" grid gap-y-14 place-content-center overflow-x-hidden sm:flex sm:gap-x-12   bg-[#fff]  p-2 lg:px-10  py-20">
+        <div className="hidden lg:flex">
+          <img src={right} alt="" />
+        </div>
+        <div className="text-[#000] sm:w-[500px] grid place-content-center">
+          <p className="font-normal">
             Now you can make an appointment for consultation with your doctor
             anywhere, anytime via this platform which makes it better
           </p>
-          <div className="text-[16px] font-bold  ">
+          <div className="text-[16px] font-semibold  ">
             <p className="flex items-center gap-3">
               {" "}
               <svg
@@ -51,15 +52,14 @@ const Startconsultation = () => {
           </div>
         </div>
         <div className="relative   grid place-content-center">
+          <h1 className="font-semibold text-[30px] text-[#00a651]">
+            Start Consultation
+          </h1>
+          <h1 className="text-[18px] font-semibold ">Consult With our Professional Doctors</h1>
           <img
             src={consultation}
             alt=""
             className="w-[80%]   sm:min-w-[70%]  "
-          />
-          <img
-            src={consult}
-            alt=""
-            className="absolute overflow-x-hidden bottom-[-100px] right-[-10px] max-w-[50%]   sm:max-w-[250px ] sm:bottom-[-30px] sm:right-[-20px] md:bottom-[-100px]"
           />
         </div>
       </div>

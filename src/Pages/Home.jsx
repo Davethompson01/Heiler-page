@@ -21,8 +21,9 @@ const Home = () => {
         <Bookappointment />
         <Testimoials />
         <Chooseus />
-        <Startconsultation />
         <Ourdoctor />
+        <Startconsultation />
+        
 
         <Blog />
       </div>

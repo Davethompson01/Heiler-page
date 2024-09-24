@@ -1,24 +1,30 @@
 import React from "react";
 import choose from "../../assets/chooseus.png";
+import left from "../../assets/leftAngle.png";
 
 const Chooseus = () => {
   return (
     <>
-      <div className="bg-[#f5fffa]  py-10 px-4 lg:px-10 shadow-lg w-full text-center ">
-        <h1 className="text-[#fff] text-[20px] font-[700]">Why Choose Us</h1>
-        <h1 className="text-[32px] font-[700]  text-[#fff] mb-8">
-          Why You Should Choose?{" "}
-        </h1>
+      <div className="bg-[#000]  py-10 px-4 lg:px-10 shadow-lg w-full text-center ">
         <div className="grid gap-12 place-content-center sm:flex items-center justify-center lg:justify-center lg:gap-[10rem]">
-          <div className=" grid place-items-center">
-            <img
-              src={choose}
-              alt=""
-              className="sm:w-[310px] md:w-[400px]  lg:w-[500px]"
-            />
-          </div>
           <div>
-            <p className="text-[16px] font-bold flex items-center gap-3 ">
+            <h1 className="text-[#fff] text-[20px] mb-8 font-[700]">
+              Why Choose Us
+            </h1>
+
+            <div className=" grid place-items-center">
+              <img
+                src={choose}
+                alt=""
+                className="sm:w-[310px] md:w-[400px]  lg:w-[500px]"
+              />
+            </div>
+          </div>
+          <div className="text-white grid gap-2">
+            <p
+              className="text-[16px] text-justify
+            font-normal flex items-center gap-3 "
+            >
               {" "}
               <svg
                 width="15"
@@ -38,8 +44,7 @@ const Chooseus = () => {
               </svg>
               Safety is our first priority
             </p>
-            <p className="text-[16px] font-bold flex items-center gap-3 ">
-              {" "}
+            <p className="text-[16px] text-justify font-normal flex  gap-3 ">
               <svg
                 width="15"
                 height="15"
@@ -56,10 +61,9 @@ const Chooseus = () => {
                   fill="white"
                 />
               </svg>
-              Flexibility in treatment
+              <div>Flexibility in treatment</div>
             </p>
-            <p className="text-[16px] font-bold flex items-center  gap-3 ">
-              {" "}
+            <p className="text-[16px] text-justify font-normal flex   gap-3 ">
               <svg
                 width="15"
                 height="15"
@@ -76,9 +80,9 @@ const Chooseus = () => {
                   fill="white"
                 />
               </svg>
-              Diagnostic with technology{" "}
+              <h1> Diagnostic with technology</h1>
             </p>
-            <p className="text-[16px] font-bold flex items-center gap-3 ">
+            <p className="text-[16px] text-justify font-normal flex  items-center gap-3 ">
               {" "}
               <svg
                 width="15"
@@ -98,7 +102,7 @@ const Chooseus = () => {
               </svg>
               Reliable pricing
             </p>
-            <p className="text-[16px] font-bold flex items-center gap-3 ">
+            <p className="text-[16px] text-justify font-normal flex items-center gap-3 ">
               {" "}
               <svg
                 width="15"
@@ -120,10 +124,15 @@ const Chooseus = () => {
             </p>
 
             <div>
-              <button className="mt-8 border-[1px] border-[#00a651] font-bold px-8 py-2 bg-white text-[#00a651] rounded-xl">
-                Book Appointment
-              </button>
+              <div className="flex mt-8">
+                <h1 className="border-[1px] px-6 py-3 rounded-[10px] border-[#ee9621]  font-bold">
+                  Sign in
+                </h1>
+              </div>
             </div>
+          </div>
+          <div className="hidden lg:flex">
+            <img src={left} alt="" />
           </div>
         </div>
       </div>

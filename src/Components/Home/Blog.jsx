@@ -38,13 +38,13 @@ const Blog = () => {
     <>
       <div className="  bg-[#f5fffa] px-2 lg:px-10 shadow-lg py-10">
         <div className="grid place-items-center gap-7  md:flex  md:justify-around md:items-center">
-          <div className="shadow-lg  max-w-[400px] bg-white rounded-xl basis-[40%] sm:grid place-content-center">
-            <div className="">
-              <img src={blog} alt="" />
+          <div className="shadow-lg  max-w-[400px] bg-white rounded-xl basis-[40%] sm:grid place-content-center p-4">
+            <div>
+              <img src={blog} alt="" className="rounded-lg" />
             </div>
-            <div className="p-6 grid place-content-center gap-3">
+            <div className="py-4 grid place-content-center gap-3">
               <h1 className="text-[#00A651] flex  justify-between font-semibold items-center">
-                Cardiology{" "}
+                <div className="bg-[#e3f5ec] px-3 py-2 rounded-xl">Cardiology</div>
                 <span className="text-[#003B1D] flex gap-2 items-center">
                   <svg
                     width="12"
@@ -89,7 +89,7 @@ const Blog = () => {
               {maps.map((element, index) => (
                 <div
                   key={index}
-                  className=" bg-white rounded-xl md:flex border-[3px] shadow-2xl"
+                  className=" bg-white rounded-xl md:flex border-[3px] shadow-2xl "
                 >
                   <div>
                     <img
