@@ -26,17 +26,10 @@ const Blog = () => {
         "When it comes to diseases, information about yourself can save your life",
       readmore: "Read more",
     },
-    {
-      img: blog2,
-      h1: "These Tests Could Save Your Life When Test For Diseases",
-      description:
-        "When it comes to diseases, information about yourself can save your life",
-      readmore: "Read more",
-    },
   ];
   return (
     <>
-      <div className="  bg-[#f5fffa] px-2 lg:px-10 shadow-lg py-10">
+      <div className="  bg-[#aecac2] px-2 lg:px-10 shadow-lg py-10">
         <div className="grid place-items-center gap-7  md:flex  md:justify-around md:items-center">
           <div className="shadow-lg  max-w-[400px] bg-white rounded-xl basis-[40%] sm:grid place-content-center p-4">
             <div>
@@ -44,7 +37,9 @@ const Blog = () => {
             </div>
             <div className="py-4 grid place-content-center gap-3">
               <h1 className="text-[#00A651] flex  justify-between font-semibold items-center">
-                <div className="bg-[#e3f5ec] px-3 py-2 rounded-xl">Cardiology</div>
+                <div className="bg-[#e3f5ec] px-5 py-2 rounded-[10px]">
+                  Cardiology
+                </div>
                 <span className="text-[#003B1D] flex gap-2 items-center">
                   <svg
                     width="12"
@@ -78,7 +73,7 @@ const Blog = () => {
                 program...
               </p>
               <div>
-                <button className="mt-8 border-[1px] border-[#00a651] font-bold px-8 py-2 bg-white text-[#00a651] rounded-xl">
+                <button className="mt-8   font-bold  py-2 bg-white text-[#f4bd74] rounded-xl">
                   Read more
                 </button>
               </div>
@@ -87,30 +82,32 @@ const Blog = () => {
           <div className=" basis-[55%]">
             <div className="grid place-content-center gap-7">
               {maps.map((element, index) => (
-                <div
-                  key={index}
-                  className=" bg-white rounded-xl md:flex border-[3px] shadow-2xl "
-                >
+                <div key={index} className=" bg-white rounded-xl md:flex p-4 ">
                   <div>
                     <img
                       src={element.img}
                       alt=""
-                      className="rounded-xl w-full border-[3px] border-[#00a651] sm:h-[100%] sm:w-[100%]"
+                      className="rounded-xl w-full  sm:h-[100%] sm:w-[100%]"
                     />
                   </div>
-                  <div className="p-3 ">
-                    <h1 className="text-[#003B1D] text-[16px] font-semibold ">
+                  <div className="p-3 w-full">
+                    <h1 className="text-[#003B1D] text-[20px] font-bold ">
                       {element.h1}
                     </h1>
-                    <p className="text-[#003B1D]  text-[12px] font-semibold ">
+                    <p className="text-[#003B1D]  text-[16px] font-normal ">
                       {element.description}
                     </p>
-                    <button className="mt-2 border-[1px] border-[#00a651] font-bold px-8 py-2 bg-white text-[#00a651] rounded-xl">
-                      {element.readmore}
-                    </button>
+                    <div className="">
+                      <button className="mt-2 text-right   font-bold  bg-white w-full text-[#ee9621]">
+                        {element.readmore}
+                      </button>
+                    </div>
                   </div>
                 </div>
               ))}
+              <div className="w-full text-center py-2 rounded-md bg-[#ee9621]">
+                <h1>See more</h1>
+              </div>
             </div>
           </div>
         </div>

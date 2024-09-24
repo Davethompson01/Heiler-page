@@ -9,6 +9,7 @@ import Ourdoctor from "../Components/Home/Ourdoctor";
 import Chooseus from "../Components/Home/Chooseus";
 import Blog from "../Components/Home/Blog";
 import Testimoials from "../Components/Home/Testimoials";
+import Footer from "../Components/Home/Footer";
 
 const Home = () => {
   return (
@@ -23,9 +24,8 @@ const Home = () => {
         <Chooseus />
         <Ourdoctor />
         <Startconsultation />
-        
-
         <Blog />
+        <Footer />
       </div>
     </>
   );

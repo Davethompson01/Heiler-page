@@ -73,9 +73,8 @@ const Nav = () => {
                   </Link>
                 ))}
                 <div className="grid gap-3 text-center">
-                  <h1 className="text-[#ee9621]">Sign in</h1>
                   <h1 className="border-[1px] border-[#00a651] px-14 py-2 bg-white text-[#00a651] rounded-xl">
-                    Sign up
+                    Get Started
                   </h1>
                 </div>
               </ul>
