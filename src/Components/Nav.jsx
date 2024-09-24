@@ -84,11 +84,13 @@ const Nav = () => {
           <div className="hidden md:flex">
             <ul className="p-4 flex gap-6">
               {maps.map((element, index) => (
-                <li>
+                <li className="items-center flex">
                   <Link
                     onClick={() => handleClick(index)}
                     className={`items-center flex ${
-                      activeLinks[index] ? "bg-yellow-500" : ""
+                      activeLinks[index]
+                        ? "font-bold text-[#00a651]"
+                        : "text-[#2dd880]"
                     }`}
                     to={element.path}
                     key={index}
@@ -97,14 +99,13 @@ const Nav = () => {
                   </Link>
                 </li>
               ))}
-
-              <div className="flex justify-center items-center gap-3 text-center">
-                <h1 className="border-[4px] border-[#00a651] cursor-pointer font-bold px-8 py-2 bg-white text-[#00a651] rounded-xl">
-                  Sign up
-                </h1>
-              </div>
             </ul>
           </div>
+        </div>
+        <div className="hidden md:flex justify-center items-center gap-3 text-center">
+          <h1 className="border-[4px] border-[#00a651] cursor-pointer font-bold px-8 py-2 bg-white text-[#00a651] rounded-xl">
+            <a href="">Get started</a>
+          </h1>
         </div>
       </div>
     </>
