@@ -5,6 +5,14 @@ import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
+  const maps = [
+    { h1: "Home", path: "/" },
+    { h1: "Our service", path: "/Service" },
+    { h1: "Find Doctor", path: "/finddoctor" },
+    { h1: "About", path: "/About" },
+    { h1: "Contact", path: "/Contact" },
+  ];
+
   const [activeLinks, setActiveLinks] = useState(
     maps.reduce((acc, _, index) => ({ ...acc, [index]: false }), {})
   );
@@ -15,13 +23,6 @@ const Nav = () => {
       return newActiveLinks;
     });
   };
-  const maps = [
-    { h1: "Home", path: "/" },
-    { h1: "Our service", path: "/Service" },
-    { h1: "Find Doctor", path: "/finddoctor" },
-    { h1: "About", path: "/About" },
-    { h1: "Contact", path: "/Contact" },
-  ];
 
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => setIsOpen((prevState) => !prevState);
