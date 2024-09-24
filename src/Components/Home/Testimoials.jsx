@@ -40,7 +40,7 @@ const Testimoials = () => {
           What Our Patients Says About Us
         </h1>
 
-        <div className="grid gap-8 four:grid-cols-2 md:grid-cols-4">
+        <div className="mt-14 grid gap-8 four:grid-cols-2 md:grid-cols-4">
           {maps.map((element, index) => (
             <div key={index} className="bg-white relative p-5 mt-4 border-[2px] border-[#d1efdf] rounded-xl">
               <div className="grid place-items-center pt-4 ">

@@ -9,7 +9,7 @@ const Allprofessional = () => {
     {
       svg: professional,
       h1: "All Professionals",
-      p: "Providing unwavering support around the clock, our24-hours service ensures. ",
+      p: "Providing unwavering support around the clock, our24-hours service ensures.  ",
     },
     {
       svg: doctor,
@@ -34,7 +34,7 @@ const Allprofessional = () => {
           {maps.map((element, index) => (
             <div
               key={index}
-              className="shadow-lg sm:h-[250px] border-[2px] border-[#daf3e6] rounded-xl p-4 w-[90%] bg-white grid place-items-center "
+              className="shadow-lg  border-[2px] border-[#daf3e6] rounded-xl py-[41px]  w-[90%] bg-white grid place-items-center "
             >
               <div
                 className=" h-[50px] w-[50px] bg-cover bg-no-repeat  bg-center"
