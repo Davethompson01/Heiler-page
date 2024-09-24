@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import Bestreliable from "../Components/Home/Bestreliable";
 import Allprofessional from "../Components/Home/Allprofessional";
 import Happycustomers from "../Components/Home/Happycustomers";
@@ -11,14 +11,26 @@ import Blog from "../Components/Home/Blog";
 import Testimoials from "../Components/Home/Testimoials";
 import Footer from "../Components/Home/Footer";
 
-const Home = () => {
+const Home = ({ scrollToAbout, setScrollToAbout }) => {
+  const aboutRef = useRef(null);
+
+  useEffect(() => {
+    if (scrollToAbout) {
+      aboutRef.current.scrollIntoView({ behavior: "smooth" });
+      setScrollToAbout(false);
+    }
+  }, [scrollToAbout, setScrollToAbout]);
   return (
     <>
       <div>
         <Bestreliable />
         <Happycustomers />
         <Allprofessional />
-        <Ourservices />
+
+        <div ref={aboutRef}>
+          <Ourservices />
+        </div>
+
         <Bookappointment />
         <Testimoials />
         <Chooseus />

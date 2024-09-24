@@ -1,15 +1,16 @@
 import React from "react";
 import { useState } from "react";
+import { useLocation } from "react-router-dom";
 import logo from "../assets/logo.png";
 
 import { Link } from "react-router-dom";
 
-const Nav = () => {
+const Nav = ({ handleScrollToAbout }) => {
   const maps = [
     { h1: "Home", path: "/" },
-    { h1: "Our service", path: "/Service" },
+    { h1: "Our service", path: "/#Service" },
     { h1: "Find Doctor", path: "/finddoctor" },
-    { h1: "About", path: "/About" },
+
     { h1: "Contact", path: "/Contact" },
   ];
 
@@ -26,6 +27,20 @@ const Nav = () => {
 
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => setIsOpen((prevState) => !prevState);
+  const location = useLocation();
+
+  const handleLinkClick = (path) => {
+    if (path === "/#Service") {
+      if (window.location.pathname === "/") {
+        handleScrollToAbout();
+      } else {
+        navigate("/");
+        setTimeout(handleScrollToAbout, 0);
+      }
+    } else {
+      navigate(path);
+    }
+  };
   return (
     <>
       <div className="flex items-center justify-between  bg-[#fff] p-2 lg:px-20 shadow-lg">
@@ -68,12 +83,17 @@ const Nav = () => {
                   <img src={logo} alt="" />
                 </div>
                 {maps.map((element, index) => (
-                  <Link to={element.path} key={index} className="py-4">
+                  <Link
+                    to={element.path}
+                    key={index}
+                    className="py-4"
+                    onClick={() => handleLinkClick(element.path)}
+                  >
                     {element.h1}
                   </Link>
                 ))}
                 <div className="grid gap-3 text-center">
-                  <h1 className="border-[1px] border-[#00a651] px-14 py-2 bg-white text-[#00a651] rounded-xl">
+                  <h1 className="  px-14 py-2 text-white  rounded-xl">
                     Get Started
                   </h1>
                 </div>
@@ -83,7 +103,10 @@ const Nav = () => {
           <div className="hidden md:flex">
             <ul className="p-4 flex gap-6">
               {maps.map((element, index) => (
-                <li className="items-center flex">
+                <li
+                  className="items-center flex"
+                  onClick={() => handleLinkClick(element.path)}
+                >
                   <Link
                     onClick={() => handleClick(index)}
                     className={`items-center flex ${

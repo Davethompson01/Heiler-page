@@ -14,7 +14,7 @@ const Allprofessional = () => {
     {
       svg: doctor,
       h1: "Qualified Doctors",
-      p: "A qualified doctors possesses acomprehensive understandingof medical sciences",
+      p: "A qualified doctors possesses acomprehensive understanding of medical sciences",
     },
     {
       svg: Emergency,
@@ -30,11 +30,11 @@ const Allprofessional = () => {
   return (
     <>
       <div className="bg-[#f5fffa] lg:px-10 py-10">
-        <div className="grid gap-3 place-items-center  sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-3 place-items-center  sm:grid-cols-2  lg:grid-cols-4">
           {maps.map((element, index) => (
             <div
               key={index}
-              className="shadow-lg  border-[2px] border-[#daf3e6] rounded-xl py-[41px]  w-[90%] bg-white grid place-items-center "
+              className="shadow-lg h-[300px]   border-[2px] border-[#daf3e6] rounded-xl py-[41px]  w-[261px] bg-white grid place-items-center "
             >
               <div
                 className=" h-[50px] w-[50px] bg-cover bg-no-repeat  bg-center"
@@ -42,12 +42,14 @@ const Allprofessional = () => {
                   backgroundImage: `url(${element.svg})`,
                 }}
               ></div>
-              <h1 className="text-[25px] font-semibold text-[#00a651] text-center">
-                {element.h1}
-              </h1>
-              <p className="font-medium text-[#00a651] text-center">
-                {element.p}
-              </p>
+              <div className="px-2">
+                <h1 className="text-[25px] font-semibold text-[#00a651] text-center">
+                  {element.h1}
+                </h1>
+                <p className="font-normal  text-[#00a651] text-center">
+                  {element.p}
+                </p>
+              </div>
             </div>
           ))}
         </div>
