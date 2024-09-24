@@ -39,7 +39,7 @@ const Nav = () => {
           >
             <div
               className={`w-8 h-1 z-20 bg-[#00A651] transition-transform duration-300 ${
-                isOpen ? "rotate-45 translate-y-2 bg-white" : ""
+                isOpen ? "rotate-45 translate-y-2 bg-[#00A651]" : ""
               }`}
             ></div>
             <div
@@ -49,7 +49,7 @@ const Nav = () => {
             ></div>
             <div
               className={`w-8 h-1 z-20 bg-[#00A651] transition-transform duration-300 ${
-                isOpen ? "-rotate-45 -translate-y-2 bg-white" : ""
+                isOpen ? "-rotate-45 -translate-y-2 bg-[#00A651]" : ""
               }`}
             ></div>
             <div
