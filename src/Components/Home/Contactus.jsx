@@ -1,8 +1,8 @@
 import React from "react";
 import contact from "../../assets/contact.png";
-import location from "../../assets/location.svg";
-import email from "../../assets/location.svg";
-import call from "../../assets/call.svg";
+// import location from "../../assets/location.svg";
+// import email from "../../assets/location.svg";
+// import call from "../../assets/call.svg";
 
 
 const Contactus = () => {
