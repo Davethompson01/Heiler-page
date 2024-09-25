@@ -25,7 +25,7 @@ const Bestreliable = () => {
         />
         <img
           src={health}
-          className="hidden sm:block  bg-cover bg-center w-full absolute h-[700px] top-0"
+          className="hidden sm:block  bg-cover bg-center w-full absolute h-[500px] top-0"
           alt=""
         />
       </div>
