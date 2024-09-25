@@ -5,9 +5,21 @@ import right from "../../assets/right.png";
 const Startconsultation = () => {
   return (
     <>
-      <div className=" grid gap-y-14 place-content-center overflow-x-hidden sm:flex sm:gap-x-12   bg-[#fff]  p-2 lg:px-10  py-20">
+      <div className=" grid gap-y-14 place-content-center overflow-x-hidden sm:flex flex-row-reverse sm:gap-x-12   bg-[#fff]  p-2 lg:px-10  py-20">
         <div className="hidden lg:flex">
           <img src={right} alt="" />
+        </div>
+        
+        <div className="relative   grid place-content-center gap-5">
+          <h1 className="font-semibold text-[30px] text-[#00a651]">
+            Start Consultation
+          </h1>
+          <h1 className="text-[18px] font-medium ">Consult With our Professional Doctors</h1>
+          <img
+            src={consultation}
+            alt=""
+            className="w-[80%]   sm:min-w-[70%]  "
+          />
         </div>
         <div className="text-[#000] sm:w-[500px] grid place-content-center">
           <p className="font-normal">
@@ -50,17 +62,6 @@ const Startconsultation = () => {
               Start Consultation
             </button>
           </div>
-        </div>
-        <div className="relative   grid place-content-center">
-          <h1 className="font-semibold text-[30px] text-[#00a651]">
-            Start Consultation
-          </h1>
-          <h1 className="text-[18px] font-semibold ">Consult With our Professional Doctors</h1>
-          <img
-            src={consultation}
-            alt=""
-            className="w-[80%]   sm:min-w-[70%]  "
-          />
         </div>
       </div>
     </>

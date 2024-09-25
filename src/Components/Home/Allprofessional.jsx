@@ -9,7 +9,7 @@ const Allprofessional = () => {
     {
       svg: professional,
       h1: "All Professionals",
-      p: "Providing unwavering support around the clock, our24-hours service ensures.  ",
+      p: "Providing unwavering support around the clock, our 24-hours service ensures.  ",
     },
     {
       svg: doctor,
@@ -19,7 +19,7 @@ const Allprofessional = () => {
     {
       svg: Emergency,
       h1: "Emergency Care",
-      p: "Our timely intervention playsa crucial role in stabilizingpatients and saving lives ",
+      p: "Our timely intervention plays a crucial role in stabilizingpatients and saving lives ",
     },
     {
       svg: happy,

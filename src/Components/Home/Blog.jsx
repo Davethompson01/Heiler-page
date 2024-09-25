@@ -10,27 +10,27 @@ const Blog = () => {
       h1: "These Tests Could Save Your Life When Test For Diseases",
       description:
         "When it comes to diseases, information about yourself can save your life",
-      readmore: "Read more",
+      readmore: "Read ",
     },
     {
       img: blog2,
       h1: "These Tests Could Save Your Life When Test For Diseases",
       description:
         "When it comes to diseases, information about yourself can save your life",
-      readmore: "Read more",
+      readmore: "Read ",
     },
     {
       img: blog2,
       h1: "These Tests Could Save Your Life When Test For Diseases",
       description:
         "When it comes to diseases, information about yourself can save your life",
-      readmore: "Read more",
+      readmore: "Read ",
     },
   ];
   return (
     <>
       <div className="  bg-[#aecac2] px-2 lg:px-10 shadow-lg py-10">
-        <div className="grid place-items-center gap-7  md:flex  md:justify-around md:items-center">
+        <div className="grid place-items-center gap-7  mdpro:flex  md:justify-around md:items-center">
           <div className="shadow-lg  max-w-[400px] bg-white rounded-xl basis-[40%] sm:grid place-content-center p-4">
             <div>
               <img src={blog} alt="" className="rounded-lg" />
@@ -82,7 +82,10 @@ const Blog = () => {
           <div className=" basis-[55%]">
             <div className="grid place-content-center gap-7">
               {maps.map((element, index) => (
-                <div key={index} className=" bg-white rounded-xl md:flex p-4 ">
+                <div
+                  key={index}
+                  className=" bg-white max-w-[400px] rounded-xl md:flex p-4 md:min-w-[500px]"
+                >
                   <div>
                     <img
                       src={element.img}

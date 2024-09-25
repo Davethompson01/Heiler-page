@@ -49,18 +49,18 @@ const Ourdoctor = () => {
   ];
   return (
     <>
-      <div className="bg-[#f5fffa]  py-10 px-4 lg:px-10 shadow-lg w-full text-center  ">
-        <h1 className="text-[30px]   text-[#00a651] ">
+      <div className="bg-[#fff]  py-10 px-4 lg:px-10 shadow-lg w-full text-center  ">
+        <h1 className="text-[30px] font-[500]   text-[#00a651] ">
           Meet Our Professional Doctors
         </h1>
-        <p className="mb-8 text-[20px] text-[#00a651] ">
+        <p className="mb-8 text-[22px] text-[#000] ">
           Here are some of our professionals to cater for your heath needs
         </p>
         <div className="grid gap-4 place-items-center w-full sm:grid-cols-2  lgpro:grid-cols-4">
           {maps.map((element, index) => (
             <div
               key={index}
-              className="bg-white  p-5 rounded-xl border-[2px] border-[#e8f7ef] text-[#00a651]  flex flex-col items-center mx-auto justify-center w-[95%] four:max-w-[400px] "
+              className="bg-white  p-5 rounded-xl border-[2px] border-[#e8f7ef] text-[#00a651]  flex flex-col items-center mx-auto justify-center w-[262px] h-[350px] four:max-w-[400px] "
             >
               <img
                 src={health}

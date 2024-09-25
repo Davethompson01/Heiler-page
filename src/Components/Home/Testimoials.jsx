@@ -35,14 +35,19 @@ const Testimoials = () => {
   return (
     <>
       <div className=" bg-[#f5fffa] px-4 py-20  lg:px-10 shadow-lg">
-        <h1 className="text-center font-bold text-[25px] text-[#035930B2]">Testimonials</h1>
-        <h1 className="mb-5 text-center font-[400] text-[15px] text-[#00a651]">
+        <h1 className="text-center font-bold text-[25px] text-[#035930B2]">
+          Testimonials
+        </h1>
+        <h1 className="mb-5 text-center font-[400] text-[25px] text-[#000]">
           What Our Patients Says About Us
         </h1>
 
-        <div className="mt-14 grid gap-8 four:grid-cols-2 md:grid-cols-4">
+        <div className="mt-14 grid gap-8 four:grid-cols-2 mdpro:grid-cols-4">
           {maps.map((element, index) => (
-            <div key={index} className="bg-white relative p-5 mt-4 border-[2px] border-[#d1efdf] rounded-xl">
+            <div
+              key={index}
+              className="bg-white relative p-5 mt-4 border-[2px] border-[#d1efdf] rounded-xl"
+            >
               <div className="grid place-items-center pt-4 ">
                 <div className="absolute top-[-30px]">
                   <img src={element.img} alt="" />

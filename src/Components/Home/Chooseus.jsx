@@ -8,8 +8,9 @@ const Chooseus = () => {
       <div className="bg-[#000]  py-10 px-4 lg:px-10 shadow-lg w-full text-center ">
         <div className="grid gap-12 place-content-center sm:flex items-center justify-center lg:justify-center lg:gap-[10rem]">
           <div>
-            <h1 className="text-[#fff] text-[20px] mb-8 font-[700]">
+            <h1 className="text-[#fff] flex items-center justify-center text-left text-[35px] mb-8 font-[500]">
               Why Choose Us
+              <div className="max-w-[112px] h-[4px] bg-[#ee9621]"></div>
             </h1>
 
             <div className=" grid place-items-center">

@@ -30,7 +30,13 @@ const Ourservices = () => {
   return (
     <>
       <div className="text-center py-20  px-2 lg:px-10 bg-[#ffffff]">
-        <h1 className="text-[30px] font-[700] text-[#00a651] ">Our Services</h1>
+        <div className="grid place-content-center grid-cols-3">
+          <div className="max-w-[112px] h-[4px] bg-[#ee9621]"></div>
+          <h1 className="text-[30px] font-[700] text-[#00a651] ">
+            Our Services
+          </h1>
+          <div className="max-w-[112px] h-[4px] bg-[#ee9621]"></div>
+        </div>
         <p className="text-[20px] text-[#00a651] font-medium mb-7">
           We Provides the Best Services
         </p>
