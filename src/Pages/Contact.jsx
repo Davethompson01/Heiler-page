@@ -7,6 +7,6 @@ const Contact = () => {
       <Contactus />
     </>
   );
-};
+}; 
 
 export default Contact;
