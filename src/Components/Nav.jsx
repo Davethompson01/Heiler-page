@@ -27,7 +27,6 @@ const Nav = ({ handleScrollToAbout }) => {
 
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => setIsOpen((prevState) => !prevState);
-  const location = useLocation();
 
   const handleLinkClick = (path) => {
     if (path === "/#Service") {
