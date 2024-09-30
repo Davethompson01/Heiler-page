@@ -21,13 +21,9 @@ const Bestreliable = () => {
         <img
           src={health}
           alt="A healthcare professional providing care to a patient"
-          className=" sm:hidden absolute left-0 bottom-0 w-[100%]"
+          className="  absolute left-0 bottom-0 w-[100%]"
         />
-        <img
-          src={health}
-          className="hidden sm:block  bg-cover bg-center w-full absolute h-[500px] top-0"
-          alt=""
-        />
+      
       </div>
     </>
   );

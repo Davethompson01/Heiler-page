@@ -124,7 +124,7 @@ const Nav = ({ handleScrollToAbout }) => {
           </div>
         </div>
         <div className="hidden md:flex justify-center items-center gap-3 text-center">
-          <h1 className="border-[4px] border-[#00a651] cursor-pointer font-bold px-8 py-2 bg-white text-[#00a651] rounded-xl">
+          <h1 className=" cursor-pointer font-bold px-8 py-2 bg-[#00a651] text-[#fff] rounded-xl">
             <a href="">Get started</a>
           </h1>
         </div>

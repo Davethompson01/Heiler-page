@@ -5,7 +5,7 @@ import left from "../../assets/leftAngle.png";
 const Bookappointment = () => {
   return (
     <>
-      <div className="sm:flex gap-[50px]  bg-[#000] text-white px-4 py-20 lg:px-10">
+      <div className="sm:flex gap-[50px]  bg-[#1a1f1c] text-white px-4 py-20 lg:px-10">
         <div className="grid place-content-center">
           <h1 className="font-semibold text-[25px]">Book Appointment</h1>
           <h1 className="text-[16px] mb-7 ">

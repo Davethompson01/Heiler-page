@@ -5,7 +5,7 @@ import left from "../../assets/leftAngle.png";
 const Chooseus = () => {
   return (
     <>
-      <div className="bg-[#000]  py-10 px-4 lg:px-10 shadow-lg w-full text-center ">
+      <div className="bg-[#1a1f1c]  py-10 px-4 lg:px-10 shadow-lg w-full text-center ">
         <div className="grid gap-12 place-content-center sm:flex items-center justify-center lg:justify-center lg:gap-[10rem]">
           <div>
             <h1 className="text-[#fff] flex items-center justify-center text-left text-[35px] mb-8 font-[500]">
@@ -126,7 +126,7 @@ const Chooseus = () => {
 
             <div>
               <div className="flex mt-8">
-                <h1 className="border-[1px] px-6 py-3 rounded-[10px] border-[#ee9621]  font-bold">
+                <h1 className="border-[1px] px-6 py-3 rounded-[10px] text-[#ee9621] border-[#ee9621]  font-bold">
                   Sign in
                 </h1>
               </div>
