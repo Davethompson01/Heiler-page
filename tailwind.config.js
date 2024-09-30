@@ -10,6 +10,7 @@ export default {
         four: "500px",
         lgpro: "1140px",
         mdpro: "840px",
+        
       },
     },
   },

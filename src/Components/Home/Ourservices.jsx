@@ -44,7 +44,7 @@ const Ourservices = () => {
           {maps.map((element, index) => (
             <div
               key={index}
-              className="shadow-lg sm:h-[200px] bg-[#00a651]  rounded-xl p-4 w-[90%] grid place-items-center "
+              className="shadow-lg sm:h-[200px] bg-[#00a651]  rounded-xl p-4 w-[261px] lg:w-[90%] grid place-items-center "
             >
               <div
                 className=" h-[50px] w-[50px] bg-cover bg-no-repeat  bg-center"

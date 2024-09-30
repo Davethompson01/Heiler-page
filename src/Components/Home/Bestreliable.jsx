@@ -13,7 +13,7 @@ const Bestreliable = () => {
             serve the needs of our patients.
           </p>
           <div className="grid place-content-center">
-            <button className="grid rounded-xl text-[#00a651] bg-white py-3 px-8">
+            <button className="grid rounded-xl mt-6 font-bold text-[#00a651] bg-white py-3 px-8">
               Get Started
             </button>
           </div>
@@ -21,7 +21,7 @@ const Bestreliable = () => {
         <img
           src={health}
           alt="A healthcare professional providing care to a patient"
-          className="  absolute left-0 bottom-0 w-[100%]"
+          className="  absolute left-0 mdpro:h-[100%] bottom-0 w-[100%]"
         />
       
       </div>

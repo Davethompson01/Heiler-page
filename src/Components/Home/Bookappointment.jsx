@@ -6,9 +6,10 @@ const Bookappointment = () => {
   return (
     <>
       <div className="sm:flex gap-[50px]  bg-[#1a1f1c] text-white px-4 py-20 lg:px-10">
-        <div className="grid place-content-center">
+      <div className="flex justify-center items-center">
+      <div className="grid place-content-center">
           <h1 className="font-semibold text-[25px]">Book Appointment</h1>
-          <h1 className="text-[16px] mb-7 ">
+          <h1 className="text-[16px] mb-7 mt-3 ">
             Make An Appointment With A Doctor Today.
           </h1>
           <div className="grid place-items-center  ">
@@ -19,7 +20,7 @@ const Bookappointment = () => {
             />
           </div>
         </div>
-        <div className="text-[#fff] gap-10 grid place-content-center sm:w-[500px]  mt-6">
+        <div className="text-[#fff] gap-x-5 grid place-content-center sm:w-[500px]  mt-6">
           <p className="font-normal text-[16px]">
             Heiler accepts major health care insurance plans and providers to
             ensure you get quality care at a cost that fits within your budgets.
@@ -63,7 +64,8 @@ const Bookappointment = () => {
             </button>
           </div>
         </div>
-        <div className="hidden lg:flex">
+      </div>
+        <div className="hidden ">
           <img src={left} alt="" />
         </div>
       </div>
