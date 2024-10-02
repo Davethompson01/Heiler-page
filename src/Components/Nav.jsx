@@ -9,7 +9,7 @@ const Nav = ({ handleScrollToAbout }) => {
   const maps = [
     { h1: "Home", path: "/" },
     { h1: "Our service", path: "/#Service" },
-    { h1: "Find Doctor", path: "/finddoctor" },
+    { h1: "Find Doctor", path: "http://app.heiler.health/" },
 
     { h1: "Contact", path: "/Contact" },
   ];
@@ -125,7 +125,8 @@ const Nav = ({ handleScrollToAbout }) => {
         </div>
         <div className="hidden md:flex justify-center items-center gap-3 text-center">
           <h1 className=" cursor-pointer font-bold px-8 py-2 bg-[#00a651] text-[#fff] rounded-xl">
-            <a href="">Get started</a>
+            
+            <a href="http://app.heiler.health/" target="_blank" rel="">Get started</a>
           </h1>
         </div>
       </div>

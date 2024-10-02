@@ -14,7 +14,7 @@ const Bestreliable = () => {
           </p>
           <div className="grid place-content-center">
             <button className="grid rounded-xl mt-6 font-bold text-[#00a651] bg-white py-3 px-8">
-              Get Started
+            <a href="http://app.heiler.health/" target="_blank" rel="">Get started</a>
             </button>
           </div>
         </div>

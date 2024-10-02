@@ -7,6 +7,7 @@ const Startconsultation = () => {
     <>
       <div className=" grid gap-y-14 place-content-center overflow-x-hidden sm:flex sm:gap-x-12   bg-[#fff]  p-2 lg:px-10  py-20">
         <div className="hidden lg:flex">
+          
           <img src={right} alt="" />
         </div>
         

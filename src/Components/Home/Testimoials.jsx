@@ -11,42 +11,42 @@ const Testimoials = () => {
       img: test1,
       h1: "Brain Louis",
       svg: stars,
-      p: "“Embrace wellness without breaking the banks! Enjoy a generous discount on each subscription",
+      p: "Embrace wellness without breaking the banks! Enjoy a generous discount on each subscription",
     },
     {
       img: test2,
       h1: "Brain Louis",
       svg: stars,
-      p: "“Embrace wellness without breaking the banks! Enjoy a generous discount on each subscription",
+      p: "Embrace wellness without breaking the banks! Enjoy a generous discount on each subscription",
     },
     {
       img: test3,
       h1: "Brain Louis",
       svg: stars,
-      p: "“Embrace wellness without breaking the banks! Enjoy a generous discount on each subscription",
+      p: "Embrace wellness without breaking the banks! Enjoy a generous discount on each subscription",
     },
     {
       img: test4,
       h1: "Brain Louis",
       svg: stars,
-      p: "“Embrace wellness without breaking the banks! Enjoy a generous discount on each subscription",
+      p: "Embrace wellness without breaking the banks! Enjoy a generous discount on each subscription",
     },
   ];
   return (
     <>
       <div className=" bg-[#f5fffa] px-4 py-20  lg:px-10 shadow-lg">
-        <h1 className="text-center font-bold text-[25px] text-[#035930B2]">
+        <h1 className="text-center font-bold text-[32px] mb-[16px] text-[#035930B2]">
           Testimonials
         </h1>
-        <h1 className="mb-5 text-center font-[400] text-[25px] text-[#000]">
+        <h1 className="mb-5 text-center font-[400] text-[20px] text-[#003b1d]">
           What Our Patients Says About Us
         </h1>
 
-        <div className="mt-14 grid gap-8 four:grid-cols-2 mdpro:grid-cols-4">
+        <div className="mt-14 grid gap-8 four:grid-cols-2 place-items-center lg:grid-cols-4">
           {maps.map((element, index) => (
             <div
               key={index}
-              className="bg-white relative p-5 mt-4 border-[2px] border-[#d1efdf] rounded-xl"
+              className="bg-white relative grid place-content-center p-[24px] mt-4 border-[2px] w-[265px] border-[#d1efdf] rounded-xl"
             >
               <div className="grid place-items-center pt-4 ">
                 <div className="absolute top-[-30px]">
@@ -62,7 +62,12 @@ const Testimoials = () => {
                   }}
                 ></div>
               </div>
-              <p className="font-semibold">{element.p}</p>
+             <div className="flex justify-start items-start  w-[100%] relative ">
+              <div  className="text-[40px] text-[#003b1d] absolute top-[-20px] left-[-15px] flex place-content-start">
+                "
+              </div>
+             <p className="font-normal text-[#003b1d]  ">{element.p}</p>
+             </div>
             </div>
           ))}
         </div>
