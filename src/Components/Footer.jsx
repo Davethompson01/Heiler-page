@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/logo.png";
+import logo from "./../assets/logo.png";
 
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
         <div>
           <img src={logo} alt="" />
         </div>
-        <p className="text-[25px] text-center text-[#9e9e9e]">Developed by Fireswitch Technologies</p>
+        <p className="text-[17px] text-center text-[#9e9e9e]">Developed by Fireswitch Technologies</p>
       </div>
     </>
   );

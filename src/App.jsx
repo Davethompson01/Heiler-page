@@ -1,9 +1,10 @@
 import Nav from "./Components/Nav";
 import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
-// import { Typography } from '@mui/material';
+
 import React, { useState, useEffect } from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
+import Footer from "./Components/Footer";
 
 function App() {
   const [scrollToAbout, setScrollToAbout] = useState(false);
@@ -26,9 +27,7 @@ function App() {
     }
   }, [location, scrollToAbout]);
   return (
-    <div  >
-        {/* <Typography variant="h1" fontFamily="Cabin"> */}
-    
+    <div>
       <Nav handleScrollToAbout={handleScrollToAbout} />
       <Routes>
         <Route
@@ -42,8 +41,6 @@ function App() {
         />
         <Route path="Contact" element={<Contact />} />
       </Routes>
-     
-      {/* </Typography> */}
     </div>
   );
 }
