@@ -30,11 +30,11 @@ const Allprofessional = () => {
   return (
     <>
       <div className="bg-[#f5fffa] lg:px-10 py-10">
-        <div className="grid gap-3 place-items-center  sm:grid-cols-2  lg:grid-cols-4">
+        <div className="grid gap-3 place-items-center py-6 sm:grid-cols-2  lg:grid-cols-4">
           {maps.map((element, index) => (
             <div
               key={index}
-              className="shadow-lg h-[250px] lg:w-[98%]  border-[2px] border-[#daf3e6] rounded-xl py-[41px]  w-[261px] bg-white grid place-items-center "
+              className="shadow-lg lg:w-[98%] border-[2px] border-[#daf3e6] rounded-xl py-6 px-8  w-[261px] bg-white grid place-items-center "
             >
               <div
                 className=" h-[50px] w-[50px] bg-cover bg-no-repeat  bg-center"
@@ -42,13 +42,9 @@ const Allprofessional = () => {
                   backgroundImage: `url(${element.svg})`,
                 }}
               ></div>
-              <div className="px-2 h-[150px] ">
-                <h1 className="text-[25px] font-semibold text-[#00a651] text-center">
-                  {element.h1}
-                </h1>
-                <p className="font-normal  text-[#00a651] text-center">
-                  {element.p}
-                </p>
+              <div className="text-center ">
+                <h1 className="text-[24px] text-[#00a651] font-[700] ">{element.h1}</h1>
+                <p>{element.p}</p>
               </div>
             </div>
           ))}
