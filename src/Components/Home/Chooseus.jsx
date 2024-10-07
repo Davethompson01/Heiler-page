@@ -23,7 +23,7 @@ const Chooseus = () => {
           </div>
           <div className="text-white grid gap-2">
             <p
-              className="text-[16px] text-justify
+              className="text-[16px] text-left
             font-normal flex items-center gap-3 "
             >
               {" "}
@@ -45,7 +45,7 @@ const Chooseus = () => {
               </svg>
               Safety is our first priority
             </p>
-            <p className="text-[16px] text-justify font-normal flex  gap-3 ">
+            <p className="text-[16px] text-left font-normal flex  gap-3 ">
               <svg
                 width="15"
                 height="15"
@@ -64,7 +64,7 @@ const Chooseus = () => {
               </svg>
               <div>Flexibility in treatment</div>
             </p>
-            <p className="text-[16px] text-justify font-normal flex   gap-3 ">
+            <p className="text-[16px] text-left font-normal flex   gap-3 ">
               <svg
                 width="15"
                 height="15"
@@ -83,7 +83,7 @@ const Chooseus = () => {
               </svg>
               <h1> Diagnostic with technology</h1>
             </p>
-            <p className="text-[16px] text-justify font-normal flex  items-center gap-3 ">
+            <p className="text-[16px] text-left font-normal flex  items-center gap-3 ">
               {" "}
               <svg
                 width="15"
@@ -103,7 +103,7 @@ const Chooseus = () => {
               </svg>
               Reliable pricing
             </p>
-            <p className="text-[16px] text-justify font-normal flex items-center gap-3 ">
+            <p className="text-[16px] text-left font-normal flex items-center gap-3 ">
               {" "}
               <svg
                 width="15"

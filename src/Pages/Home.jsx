@@ -26,11 +26,9 @@ const Home = ({ scrollToAbout, setScrollToAbout }) => {
         <Bestreliable />
         <Happycustomers />
         <Allprofessional />
-
         <div ref={aboutRef}>
           <Ourservices />
         </div>
-
         <Bookappointment />
         <Testimoials />
         <Chooseus />

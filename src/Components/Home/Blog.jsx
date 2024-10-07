@@ -2,6 +2,7 @@ import React from "react";
 import blog from "../../assets/blog.png";
 import blog1 from "../../assets/blog1.png";
 import blog2 from "../../assets/blog2.png";
+import blogbg from "../../assets/blogbg.jpg";
 
 const Blog = () => {
   const maps = [
@@ -29,11 +30,18 @@ const Blog = () => {
   ];
   return (
     <>
-      <div className="  bg-[#aecac2] px-2 lg:px-10 shadow-lg py-10">
-       <div className="text-white gap-2  grid place-content-center mb-9 text-center font-bold">
-       <h1 className="text-[25px]">Blog & News</h1>
-       <p className="text-[16px] font-normal">Our lastest News  Health Articles</p>
-       </div>
+      <div
+        className="    px-2 lg:px-10 shadow-lg  bg-center   w-full bg-cover py-10"
+        style={{
+          backgroundImage: `url(${blogbg})`,
+        }}
+      >
+        <div className="text-white gap-2  grid place-content-center mb-9 text-center font-bold">
+          <h1 className="text-[25px]">Blog & News</h1>
+          <p className="text-[16px] font-normal">
+            Our lastest News Health Articles
+          </p>
+        </div>
         <div className="grid place-items-center gap-7  mdpro:flex  md:justify-around md:items-center">
           <div className="shadow-lg  max-w-[400px] bg-white rounded-xl basis-[40%] sm:grid place-content-center p-4">
             <div>

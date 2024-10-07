@@ -20,7 +20,7 @@ const Bookappointment = () => {
             />
           </div>
         </div>
-        <div className="text-[#fff] gap-x-5 grid place-content-center sm:w-[500px]  mt-[100px]">
+        <div className="text-[#fff] gap-x-5 grid place-content-center sm:w-[400px]  mt-[100px]">
           <p className="font-normal text-[16px]">
             Heiler accepts major health care insurance plans and providers to
             ensure you get quality care at a cost that fits within your budgets.
