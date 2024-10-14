@@ -59,9 +59,18 @@ const Bookappointment = () => {
               </svg>
               Attended to directly by experts
             </p>
+
+            <a
+              href="http://app.heiler.health/onboarding"
+              target="_blank"
+              rel=""
+              className="w-full  z-20"
+            >
             <button className="mt-8   font-bold px-4 py-2 bg-[#00a651] text-[#fff] rounded-lg">
-              Book Appointment
+              Book Appointment  
             </button>
+
+            </a>
           </div>
         </div>
       </div>
