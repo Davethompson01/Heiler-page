@@ -34,8 +34,8 @@ const Home = ({ scrollToAbout, setScrollToAbout }) => {
         <Chooseus />
         <Ourdoctor />
         <Startconsultation />
-        <Blog />
-       <Footer/>
+        {/* <Blog /> */}
+        <Footer />
       </div>
     </>
   );

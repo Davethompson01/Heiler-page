@@ -7,15 +7,16 @@ const Startconsultation = () => {
     <>
       <div className=" grid gap-y-14 place-content-center overflow-x-hidden sm:flex sm:gap-x-12   bg-[#fff]  p-2 lg:px-10  py-20">
         <div className="hidden lg:flex">
-          
           <img src={right} alt="" />
         </div>
-        
+
         <div className="relative   grid place-content-center gap-5">
           <h1 className="font-semibold text-[30px] text-[#00a651]">
             Start Consultation
           </h1>
-          <h1 className="text-[18px] font-medium ">Consult With our Professional Doctors</h1>
+          <h1 className="text-[18px] font-medium ">
+            Consult With our Professional Doctors
+          </h1>
           <img
             src={consultation}
             alt=""
@@ -59,9 +60,17 @@ const Startconsultation = () => {
               </svg>
               Served directly by experts
             </p>
-            <button className="mt-8 border-[1px] c font-bold px-8 py-2 bg-white text-[#00a651] rounded-xl">
-              Start Consultation
-            </button>
+
+            <a
+              href="http://app.heiler.health/onboarding"
+              target="_blank"
+              rel=""
+              className="w-full  z-20"
+            >
+              <button className="mt-8 border-[1px] c font-bold px-8 py-2 bg-white text-[#00a651] rounded-xl">
+                Start Consultation
+              </button>
+            </a>  
           </div>
         </div>
       </div>

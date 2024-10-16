@@ -126,9 +126,16 @@ const Chooseus = () => {
 
             <div>
               <div className="flex mt-8">
-                <h1 className="border-[1px] px-6 py-3 rounded-[10px] text-[#ee9621] border-[#ee9621]  font-bold">
+                <a
+                  href="http://app.heiler.health/onboarding"
+                  target="_blank"
+                  rel=""
+                  className="w-full  z-20"
+                >
+                <h1 className="border-[1px] px-6 py-3 rounded-[10px] text-[#ee9621] w-32 border-[#ee9621]  font-bold">
                   Sign in
                 </h1>
+                </a>
               </div>
             </div>
           </div>
