@@ -163,7 +163,7 @@ const Contactus = () => {
               </div>
             </div>
 
-            <div className=" shadow-2xl  absolute rounded-xl sm:rounded-s-sm p-4 grid place-content-center top-[520px]  sm:static bg-white sm:basis-[45%] h-[600px]  left-[5%] right-[5%] ">
+            <div className="  absolute rounded-xl sm:rounded-s-sm p-4 grid place-content-center top-[520px]  sm:static bg-white sm:basis-[45%] h-[600px]  left-[5%] right-[5%] ">
               <h1 className="text-[30px] font-[700] text-[#003b1d]">
                 Send us a message
               </h1>
