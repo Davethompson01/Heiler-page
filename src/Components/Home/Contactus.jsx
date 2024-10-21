@@ -31,7 +31,7 @@ const Contactus = () => {
         <div className="relative w-full px-5">
           <div className="absolute w-full sm:w-auto right-0 sm:top-[-100px] left-0  sm:flex justify-center  items-center">
             <div className="absolute   sm:rounded-none sm:static top-[-100px] sm:basis-[45%]  left-[5%] sm:right-0  sm:left-0 right-[5%]">
-              <div className="  h-[600px]   sm:rounded-e-sm rounded-xl py-6 px-4 bg-[#f2fbf6] ">
+              <div className="  h-[600px]   sm:rounded-e-sm rounded-xl py-6 px-12 bg-[#f2fbf6] ">
                 <div className="">
                   <div className="pb-12">
                     <h1 className="text-[25px] font-medium">Get in touch</h1>
@@ -163,7 +163,7 @@ const Contactus = () => {
               </div>
             </div>
 
-            <div className="  absolute rounded-xl sm:rounded-s-sm p-4 grid place-content-center top-[520px]  sm:static bg-white sm:basis-[45%] h-[600px]  left-[5%] right-[5%] ">
+            <div className="  absolute rounded-xl sm:rounded-s-sm py-4 px-12 grid place-content-center top-[520px]  sm:static bg-white sm:basis-[45%] h-[600px]  left-[5%] right-[5%] ">
               <h1 className="text-[30px] font-[700] text-[#003b1d]">
                 Send us a message
               </h1>
