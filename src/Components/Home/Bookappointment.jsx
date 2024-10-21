@@ -6,8 +6,8 @@ const Bookappointment = () => {
   return (
     <>
       <div className="sm:flex gap-[50px]  bg-[#1a1f1c] text-white px-4 py-[120px]  lg:px-[80px] relative">
-        <div className="grid md:flex justify-between gap-7 items-center">
-          <div className="grid place-content-center ">
+        <div className="grid md:flex justify-between  items-center">
+          <div className="grid place-content-center forteen:mr-7">
             <h1 className="font-semibold text-[25px]">Book Appointment</h1>
             <h1 className="text-[16px] mb-7 mt-3 ">
               Make An Appointment With A Doctor Today.
