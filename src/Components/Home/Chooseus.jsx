@@ -127,7 +127,7 @@ const Chooseus = () => {
             <div>
               <div className="flex mt-8">
                 <a
-                  href="http://app.heiler.health/onboarding"
+                  href="https://app.heiler.health/onboarding"
                   target="_blank"
                   rel=""
                   className="w-full  z-20"

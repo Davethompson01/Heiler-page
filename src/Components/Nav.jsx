@@ -138,7 +138,7 @@ const Nav = ({ handleScrollToAbout }) => {
         <div className="hidden md:flex justify-center items-center gap-3 text-center">
           <h1 className="cursor-pointer font-bold px-8 py-2 bg-[#00a651] text-[#fff] rounded-xl">
             <a
-              href="http://app.heiler.health/onboarding/"
+              href="https://app.heiler.health/onboarding/"
               target="_blank"
               rel=""
             >

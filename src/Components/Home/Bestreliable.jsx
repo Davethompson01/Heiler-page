@@ -14,7 +14,7 @@ const Bestreliable = () => {
           </p>
           <div className="grid place-content-center">
             <a
-              href="http://app.heiler.health/onboarding"
+              href="https://app.heiler.health/onboarding"
               target="_blank"
               rel=""
               className="w-full  z-20"
