@@ -67,7 +67,7 @@ const Ourdoctor = () => {
             <img
               src={doctor.photo || health} // Use `doctor.photo` or fallback to default
               alt={`${doctor.firstName} ${doctor.lastName}`}
-              className=" w-[400px] h-auto"
+              className=" w-[400px] "
             />
             <h1 className="text-[24px] font-[700]">
               Dr {doctor.firstName} {doctor.lastName}
